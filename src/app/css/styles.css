@@ -1,0 +1,58 @@
+:root {
+  --bs-gradient: linear-gradient(270deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+}
+
+.placeholder {
+  cursor: default;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+.border-primary {
+  border-color: #209CEE;
+}
+
+.bg-ud-primary {
+  background-color: #209CEE;
+}
+
+.card-img-size {
+  width: 100%;
+  height: 8rem;
+}
+
+.card-img-size-placeholder {
+  height: 8rem;
+}
+
+.card-height-gg {
+  height: 20rem;
+}
+
+.card-height-xg {
+  height: 23rem;
+}
+
+.card-height-p {
+  height: 8rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.font-dosis-600 {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=styles.css.map */

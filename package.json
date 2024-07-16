@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-unodevs",
+  "version": "1.0.0",
+  "description": "Portifólio de Projetos da UnoDevs",
+  "main": "main.js",
+  "scripts": {
+    "sass-comp" : "sass --watch ./src/app/scss/index.scss ./src/app/css/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnoDevs/portfolio-unodevs.git"
+  },
+  "author": "UnoDevs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UnoDevs/portfolio-unodevs/issues"
+  },
+  "homepage": "https://github.com/UnoDevs/portfolio-unodevs#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
