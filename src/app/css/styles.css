@@ -27,16 +27,8 @@
   height: 8rem;
 }
 
-.card-height-gg {
-  height: 20rem;
-}
-
-.card-height-xg {
+.card-height {
   height: 23rem;
-}
-
-.card-height-p {
-  height: 8rem;
 }
 
 .nav-link:hover {

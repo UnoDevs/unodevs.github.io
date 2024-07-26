@@ -18,36 +18,39 @@
 </head>
 <body class="font-dosis-600" onload="initPage()">
     <header>
-        <nav class="navbar navbar-expand-sm bg-ud-primary bg-gradient">
+        <nav class="navbar navbar-expand-md bg-ud-primary bg-gradient">
             <div class="container-fluid">
                 <span class="navbar-brand mx-4">
                     <a class="navbar-brand" href="#" onclick="initPage()">
                         <img src="./assets/imgs/logo-64x64.png" alt="Logo UnoDevs" width="64" height="64">
                     </a>
                 </span>
-            </div>
-            <div class="collapse navbar-collapse justify-content-end">
-                <ul class="navbar-nav mx-5 text-uppercase">
-                    <li class="nav-item">
-                        <a class="nav-link text-white p mx-3" href="#" onclick="onProjects()">Projetos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white p mx-3" href="#" onclick="onMembers()">Membros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white p mx-3" href="#" onclick="onContact()">Contato</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white p mx-3" href="#" onclick="onAbout()">Sobre</a>
-                    </li>
-                </ul>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-5 mx-5-sm align-items-center text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link text-white p mx-3" href="#" onclick="onProjects()">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white p mx-3" href="#" onclick="onMembers()">Membros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white p mx-3" href="#" onclick="onContact()">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white p mx-3" href="#" onclick="onAbout()">Sobre</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
     <main>
-        <div id="projetos" class="row m-5 py-5 border border-2 rounded border-primary align-items-center justify-content-around">
-            <div class="col-2">
-                <div class="card card-height-xg">
+        <div id="projetos" class="row m-5 m-sm-5 m-md-5 m-lg-5 m-xl-5 py-3 py-sm-3 py-md-3 py-lg-3 py-xl-3 border border-2 rounded border-primary align-items-center justify-content-around">
+            <div class="col-8 col-sm-4 col-md-4 col-lg-4 col-xl-2 m-5 m-sm-5 m-md-5 m-lg-5 m-xl-5">
+                <div class="card card-height">
                     <img src="./assets/imgs/projetcts/plus.jpeg" alt="" class="card-img-size rounded-top">
                     <div class="card-body">
                         <h5 class="card-title">PLUS</h5>
@@ -57,8 +60,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
-                <div class="card card-height-xg">
+            <div class="col-8 col-sm-4 col-md-4 col-lg-4 col-xl-2 m-5 m-sm-5 m-md-5 m-lg-5 m-xl-5">
+                <div class="card card-height">
                     <img src="./assets/imgs/projetcts/portifólio.png" alt="portifólio UnoDevs" class="card-img-size rounded-top">
                     <div class="card-body">
                         <h5 class="card-title">Portifólio UnoDevs</h5>
@@ -68,8 +71,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
-                <div class="card card-height-xg">
+            <div class="col-8 col-sm-4 col-md-4 col-lg-4 col-xl-2 m-5 m-sm-5 m-md-5 m-lg-5 m-xl-5">
+                <div class="card card-height">
                     <img src="./assets/imgs/projetcts/cinemap.png" alt="cinemap" class="card-img-size rounded-top">
                     <div class="card-body">
                         <h5 class="card-title">CineMap</h5>
@@ -79,8 +82,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
-                <div class="card card-height-xg">
+            <div class="col-8 col-sm-4 col-md-4 col-lg-4 col-xl-2 m-5 m-sm-5 m-md-5 m-lg-5 m-xl-5">
+                <div class="card card-height">
                     <img src="" alt="" class="card-img-size-placeholder placeholder rounded-top">
                     <div class="card-body">
                         <h5 class="card-title">Em Breve...</h5>
@@ -95,75 +98,71 @@
                 </div>
             </div>
         </div>
-        <div id="membros" class="row m-5 py-5 border border-2 rounded border-primary">
-            <div class="row justify-content-around mb-3">
-                <div class="col-3">
-                    <div class="card card-height-gg-a">
-                        <div class="card-body">
-                            <h5 class="card-title">Jonas Carvalho Brito</h5>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card card-height-gg-a">
-                        <div class="card-body">
-                            <h5 class="card-title">Anderson Gomes Efrens</h5>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card card-height-gg-a">
-                        <div class="card-body">
-                            <h5 class="card-title">Andreia Flávia Richart Navarro</h5>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            </p>
-                        </div>
+        <div id="membros" class="row m-5 m-sm-5 m-md-5 m-lg-5 m-xl-5 py-3 py-sm-3 py-md-3 py-lg-3 py-xl-3 border border-2 rounded border-primary align-items-center justify-content-around">
+            <div class="col-10 col-sm-12 col-md-4 col-lg-12 col-xl-4 my-4 m-sm-5 m-md-5 m-lg-5 m-xl-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Jonas Carvalho Brito</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-around mt-3">
-                <div class="col-3">
-                    <div class="card card-height-gg-a">
-                        <div class="card-body">
-                            <h5 class="card-title">Cáriton Vilasanti</h5>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repellendus 
-                            </p>
-                        </div>
+            <div class="col-10 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-4 m-sm-5 m-md-5 m-lg-5 m-xl-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Anderson Gomes Efrens</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        </p>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="card card-height-gg-a">
-                        <div class="card-body">
-                            <h5 class="card-title">Filipe Ariel Fricati Filadoro</h5>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            </p>
-                        </div>
+            </div>
+            <div class="col-10 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-4 m-sm-5 m-md-5 m-lg-5 m-xl-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Andreia Flávia Richart Navarro</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        </p>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="card card-height-gg-a">
-                        <div class="card-body">
-                            <h5 class="card-title">Felipe Dos Santos Maniezo de Freitas</h5>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
-                        </div>
+            </div>            
+            <div class="col-10 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-4 m-sm-5 m-md-5 m-lg-5 m-xl-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Cáriton Vilasanti</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repellendus 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-4 m-sm-5 m-md-5 m-lg-5 m-xl-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Filipe Ariel Fricati Filadoro</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-4 m-sm-5 m-md-5 m-lg-5 m-xl-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Felipe Dos Santos Maniezo de Freitas</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
         <div id="sobre" class="row m-5 py-5 border border-2 rounded border-primary">
             <div class="row justify-content-around mb-3">
-                <div class="col-6">
+                <div class="col-10">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Sobre nós</h5>
@@ -179,7 +178,7 @@
         </div>
     </main>
     <footer>
-        <div id="contatos" class="row m-5 p-5 border border-2 rounded border-primary align-items-center justify-content-around">
+        <div id="contatos" class="row mx-2 my-5 m-sm-5 m-md-5 m-lg-5 m-xl-5 p-2 p-sm-5 p-md-5 p-lg-5 p-xl-5 border border-2 rounded border-primary align-items-center justify-content-around">
             <div class="col">
                 <div class="card ">
                     <div class="card-body">
@@ -188,13 +187,13 @@
                             <div class="row align-items-center justify-content-center">
                                 <div class="col d-flex justify-content-center">
                                     <a href="mailto:projetosunodevs@gmail.com" >
-                                        <img src="./assets/imgs/icons/svg/gmail.svg" class="mx-3" alt="Gmail">
+                                        <img src="./assets/imgs/icons/svg/gmail.svg" class="mx-2" alt="Gmail">
                                             projetosunodevs@gmail.com
                                     </a>
                                 </div>
                                 <div class="col d-flex justify-content-center">
                                     <a href="https://github.com/UnoDevs" target="_blank">
-                                        <img src="./assets/imgs/icons/svg/github.svg" class="mx-3" alt="GitHub">
+                                        <img src="./assets/imgs/icons/svg/github.svg" class="mx-2" alt="GitHub">
                                             github.com/UnoDevs
                                     </a>
                                 </div>
